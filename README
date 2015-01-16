@@ -1,0 +1,17 @@
+meta-yocto-training
+=========================
+
+Introduction
+-------------------------
+
+OpenEmbedded/Yocto BSP layer for Yocto-Training
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+layers: meta
+branch: dizzy
+
+Reporting bugs
+-------------------------
+Send pull requests, patches, comments or questions to yocto@bytesatwork.ch
