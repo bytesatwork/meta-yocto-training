@@ -1,0 +1,17 @@
+#!/bin/sh
+
+case "$1" in
+start)
+	echo "Running helloworld"
+	/usr/bin/helloworld4
+	;;
+
+stop)
+	echo "Nothing to do in stop"
+	;;
+
+*)
+	echo "Usage: $0 {start|stop}"
+	;;
+
+esac
