@@ -1,6 +1,6 @@
 
 helloworld4: helloworld.c
-	${CC} -o $@ $?
+	${CC} ${CFLAGS} ${LDFLAGS} -o $@ $?
 
 install: helloworld4
 	 mkdir -p $(DESTDIR)$(bindir)
